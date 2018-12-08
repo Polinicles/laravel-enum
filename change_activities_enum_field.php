@@ -21,7 +21,6 @@ class ChangeActivitiesEnumField extends Migration
     public function up()
     {
         DB::statement("ALTER TABLE activities MODIFY COLUMN type ENUM('debate', 'table', 'update', 'session', 'workshop')");
-
     }
 
     /**
