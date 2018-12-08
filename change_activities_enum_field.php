@@ -11,7 +11,7 @@ with the original options: ['debate', 'table', 'update'] to add the
 following options: ['debate', 'table', 'update', 'session', 'workshop']
 
 */
-class ChangeActivitiesTypeField extends Migration
+class ChangeActivitiesEnumField extends Migration
 {
     /**
      * Run the migrations.
